@@ -1,0 +1,79 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.fieldContainer {
+  position: relative;
+}
+
+.timer {
+  width: 400px;
+  text-align: right;
+}
+
+.controls {
+  width: 400px;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 7px;
+}
+
+.ball {
+  background-color: black;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.paddle {
+  background-color: black;
+  width: 10px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+table.field {
+  width: 400px;
+  height: 300px;
+}
+
+.tl {
+  border-left: 2px solid grey;
+  border-top: 2px solid grey;
+  border-right: 2px dotted grey;
+  width: 200px;
+}
+
+.tr {
+  border-right: 2px solid grey;
+  border-top: 2px solid grey;
+  /* border-left: 2px dotted grey; */
+  width: 200px;
+}
+
+.bl {
+  border-left: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-right: 2px dotted grey;
+  width: 200px;
+}
+
+.br {
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  /* border-left: 2px dotted grey; */
+  width: 200px;
+}
+
+.ml {
+  border-right: 2px dotted grey;
+}
