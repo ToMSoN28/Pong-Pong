@@ -77,6 +77,8 @@ function Controls({ left, right, onRestart, onPause }) {
       <button style={{ float: "right" }} onClick={onRestart}>
         Restart
       </button>
+      <p>Q A: moveing left paddle</p>
+      <p>P L: moveing right paddle</p> 
     </div>
   );
 }
